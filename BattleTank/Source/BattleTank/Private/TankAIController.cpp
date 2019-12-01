@@ -24,7 +24,7 @@ ATank* ATankAIController::GetControlledTank() const
 
 ATank* ATankAIController::GetPlayerTank() const
 {
-	APawn* PlayerTank = (GetWorld()->GetFirstPlayerController()->GetPawn();
+	APawn* PlayerTank = (GetWorld()->GetFirstPlayerController()->GetPawn());
 	if (!PlayerTank) 
 		return nullptr;
 
